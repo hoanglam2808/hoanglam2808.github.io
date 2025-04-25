@@ -41,8 +41,8 @@
 
       <div class="content">
         <div class="music-control">
-          <audio controls autoplay loop class="music">
-             <source src="./assets/musics/V.wav" type="audio/wav" />
+          <audio id="bgMusic" autoplay loop muted>
+            <source src="./assets/musics/V.wav" type="audio/wav" />
           </audio>
         </div>
         <div class="answer-question">
@@ -86,6 +86,10 @@
     <script src="./assets/js/RequestAnimationFrame.js"></script>
     <script src="./assets/js/heartParticle.js"></script>
     <script src="./assets/js/main.js"></script>
-
+    document.addEventListener("click", function () {
+      const music = document.getElementById("bgMusic");
+      music.muted = false;
+      music.play();
+});
   </body>
 </html>
