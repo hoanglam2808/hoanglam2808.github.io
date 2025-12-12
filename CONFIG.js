@@ -6,5 +6,5 @@ const CONFIGDATA = {
   buttonNo: "Không đồng ý",
   titleModar: "Cảm ơn cậu.",
   descriptionModar:
-    "Cảm ơn cậu đã cho tớ một cơ hội. </br> Tớ muốn đánh cược toàn bộ tình yêu này với cậu. Nếu tớ thắng thì tớ lấy cậu, nếu tớ thua thì cậu lấy tớ, còn nếu hòa thì chúng mình lấy nhau🥰.</br> Love you 😘",
+    "Vậy là đồng ý rồi nha không được hối hận đâu đấy. </br> Tớ muốn đánh cược toàn bộ tình yêu này với cậu. Nếu tớ thắng thì tớ lấy cậu, nếu tớ thua thì cậu lấy tớ, còn nếu hòa thì chúng mình lấy nhau🥰.</br> Love you 😘",
 };
